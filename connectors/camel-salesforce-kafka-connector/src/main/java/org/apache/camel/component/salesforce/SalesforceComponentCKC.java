@@ -33,11 +33,11 @@ public class SalesforceComponentCKC extends SalesforceComponent {
 
     @Override
     public PropertyConfigurer getComponentPropertyConfigurer() {
-        return new SalesforceComponentConfigurer();
+        return new SalesforceComponentConfigurerCKC();
     }
 
     @Override
     public PropertyConfigurer getEndpointPropertyConfigurer() {
-        return new SalesforceEndpointConfigurer();
+        return new SalesforceEndpointConfigurerCKC();
     }
 }
