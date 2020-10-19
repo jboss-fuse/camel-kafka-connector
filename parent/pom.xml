@@ -27,7 +27,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <kafka.version>2.5.0</kafka.version>
+        <kafka.version>2.5.0.redhat-00003</kafka.version>
+        <kafka.test.version>2.5.0</kafka.test.version>
         <camel.version>3.5.0</camel.version>
         <version.java>1.8</version.java>
         <version.guava>20.0</version.guava>
@@ -127,7 +128,7 @@
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>connect-runtime</artifactId>
-                <version>${kafka.version}</version>
+                <version>${kafka.test.version}</version>
                 <classifier>test</classifier>
                 <type>test-jar</type>
                 <scope>test</scope>
@@ -135,7 +136,7 @@
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka_2.12</artifactId>
-                <version>${kafka.version}</version>
+                <version>${kafka.test.version}</version>
                 <classifier>test</classifier>
                 <type>test-jar</type>
                 <scope>test</scope>
@@ -160,7 +161,7 @@
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-clients</artifactId>
-                <version>${kafka.version}</version>
+                <version>${kafka.test.version}</version>
                 <scope>test</scope>
                 <classifier>test</classifier>
                 <type>test-jar</type>
