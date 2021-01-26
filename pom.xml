@@ -28,7 +28,7 @@
 
     <groupId>org.apache.camel.kafkaconnector</groupId>
     <artifactId>camel-kafka-connector-aggregator</artifactId>
-    <version>0.7.1-SNAPSHOT</version>
+    <version>0.7.1.fuse-800002</version>
     <packaging>pom</packaging>
 
     <name>Camel-Kafka-Connector :: Root</name>
